@@ -54,6 +54,7 @@
     <Compile Include="Cards\Card.cs" />
     <Compile Include="Cards\SpecialCard.cs" />
     <Compile Include="Cards\UnitCard.cs" />
+    <Compile Include="Game\CombatRow.cs" />
     <Compile Include="Game\Deck.cs" />
     <Compile Include="Game\DiscardPile.cs" />
     <Compile Include="Game\Hand.cs" />

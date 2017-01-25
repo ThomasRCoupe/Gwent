@@ -10,7 +10,7 @@ namespace GwentV1.Cards
     public class UnitCard : Card
     {
         private int unitStrength;
-        private HashSet<CombatRows> playableCombatRows;
+        private HashSet<CombatRowType> playableCombatRows;
         private Ability unitAbility;
 
         public int UnitStrength
@@ -21,7 +21,7 @@ namespace GwentV1.Cards
             }
         }
 
-        public HashSet<CombatRows> PlayableCombatRows
+        public HashSet<CombatRowType> PlayableCombatRows
         {
             get
             {
@@ -37,7 +37,7 @@ namespace GwentV1.Cards
         }
     }
 
-    public enum CombatRows
+    public enum CombatRowType
     {
         CLOSE_COMBAT, RANGED_COMBAT, SIEGE_COMBAT
     }

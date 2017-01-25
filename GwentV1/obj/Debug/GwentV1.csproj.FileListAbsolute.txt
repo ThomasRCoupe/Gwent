@@ -1,1 +1,2 @@
 c:\users\useradmin\documents\visual studio 2015\Projects\GwentV1\GwentV1\bin\Debug\GwentV1.exe.config
+C:\Users\useradmin\Documents\GitHub\Gwent\GwentV1\bin\Debug\GwentV1.exe.config
